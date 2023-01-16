@@ -12,6 +12,16 @@ infraestrutura de maneira segura e eficiente
 
 # Como executar
 
+- Acessar diretório
+```cmd
+$ cd get-started-ec2 
+```
+
+- Ajustar identações
+```cmd
+$ terraform fmt
+```
+
 - Download Providers 
 ```cmd
 $ terraform init
