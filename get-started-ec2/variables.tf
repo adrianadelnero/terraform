@@ -1,20 +1,20 @@
 variable "region" {
   description = "Define what region the instance will be deployed"
-  default = "us-east-1"
+  default     = "us-east-1"
 }
 
 variable "name" {
   description = "Name of the Application"
-  default = "server01"
+  default     = "server01"
 }
 
 variable "env" {
   description = "Environment of the Application"
-  default = "prod"
+  default     = "prod"
 }
 
 
 variable "instance_type" {
   description = "AWS Instance type defines the hardware configuration of the machine"
-  default = "t2.micro"
+  default     = "t2.micro"
 }
