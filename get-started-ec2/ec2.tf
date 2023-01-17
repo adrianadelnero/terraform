@@ -14,6 +14,7 @@ resource "aws_instance" "server" {
   instance_type = var.instance_type
   user_data     = <<-EOF
       #!/bin/bash
+      echo "*** Installing apache2"
       apt-get update
       apt-get install apache2 -y
       systemctl start apache2
